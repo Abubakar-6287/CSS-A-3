@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-body {
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  width: 500px;
+  height: 150px;
+  background-color: white;
+  border: 5px solid red;
+  border-radius: 10px;
+  text-align: center;
+  place-content: center;
+  display: grid;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  margin-top: -45px;
+  animation: header 2s ease  infinite ;
+ }
+ @keyframes header {
+  0%{
+      box-shadow: 9px 9px 5px 5px rgb(61, 39, 255);
+      text-shadow: 2px 2px 0px red;
+  } 
+  50%{
+      box-shadow: -9px -9px 5px 5px rgb(255, 1, 255);
+  }
+ }
+.main-header {
+  display: grid;
+}
+.text {
+  margin: 5px;
+  text-shadow: 2px 2p 0px black;
+}
+.middle-body {
+  width: 100%;
+  height: auto;
+  border: 6px solid green;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  border-radius: 33px;
+  height: 700px;
+}
+.address-container {
+  width: 230px;
+  height: 300px;
+  background-color: white;
+  /* border: 5px solid rgb(0, 0, 0); */
+  background-image: url("https://tse3.mm.bing.net/th/id/OIP.cGndvfoFN_wgzulrM1q58AHaEp?rs=1&pid=ImgDetMain&o=7&rm=3");
+  background-size: 100% 300px;
+  animation: header 2s ease  infinite ;
+  text-align: left;
+  border-radius: 30px;
+}
+.address-container::first-letter {
+  font-size: 40px;
+  color: red;
+}
+.address-card::first-letter {
+  font-size: 30px;
+  color: red;
+}
+.address-card {
+  width: 230px;
+  height: 300px;
+  background-color: white;
+  border: 5px solid rgb(0, 0, 0);
+  padding-left: 20px;
+  padding-top: 30px;
+  font-size: 15px;
+  line-height: 30px;
+  text-shadow: 2px 2px 1px rgb(223, 255, 45);
+  border-radius: 30px;
+  margin-top: 30px;
+  animation: header 2s ease  infinite ;
+  position: relative;
+  z-index: 1;
+}
+
+.address {
+  width: 230px;
+  height: 300px;
+  /* background-color: white; */
+  border: 5px solid rgb(0, 0, 0);
+  padding-left: 20px;
+  border-radius: 30px;
+  padding-top: 40px;
+  text-shadow: 2px 2px 0px rgb(230, 255, 1);
+  animation: header 2s ease  infinite ;
+  line-height: 30px;
+  font-size: 20px;
+}
+.not {
+  background-image: url("https://cfa.ca/franchisecanada/wp-content/uploads/sites/16/2024/03/FC_MA24_1200x628_Location.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
+.rating {
+  width: 230px;
+  height: 300px;
+  background-color: white;
+  border: 5px solid rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 30px;
+  border-radius: 30px;
+  animation: header 2s ease  infinite ;
+  line-height: 35px;
+  margin-top: 30px;
+}
+.address-bottom {
+}
+body{
+    background-color: gray;
+}
+.input {
+  line-height: 20px;
+  padding-top: 10px;
+}
+input {
+  padding: 5px;
+  width: 180px;
+  border-radius: 30px;
+  /* border-radius: 5px; */
+  padding-left: 10px;
+  border-top: 3px solid red;
+  border-bottom: 3px solid red;
+  border-left: 3px solid blue;
+  border-right: 3px solid blue;
+}
+#submit {
+  background-color: rgb(43, 107, 0);
+  color: white;
+  padding: 7px 5px;
+
+  width: 120px;
+  border-top: 3px solid blue;
+  border-bottom: 3px solid blue;
+  border-left: 3px solid red;
+  border-right: 3px solid red;
+  cursor: pointer;
+}
+.ret {
+  font-size: 20px;
+  margin-top: -20px;
+  padding-bottom: 30px;
+  text-shadow: 2px 2px 0px blueviolet;
+}
+.ret::first-letter {
+  color: red;
+  font-size: 30px;
+  padding-right: -6px;
+  text-shadow: 2px 2px 0px blueviolet;
+}
+.footer {
+  width: 60%;
+  border: 5px solid black;
+  border-left: 5px solid red;
+  border-right: 5px solid greenyellow;
+  border-bottom: 5px solid blue;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(43, 107, 0);
+  margin-bottom: 100px;
+  overflow: hidden;
+  margin: 5px auto;
+  margin-bottom: 150px;
+}
+.my-store {
+  display: flex;
+  background-color: rgb(43, 107, 0);
+  justify-content: space-between;
+  animation: header 2s ease  infinite ;
+  overflow: h;
+}
+.tow {
+  padding: 15px;
+  background-color: rgb(207, 255, 239);
+  border: 1px solid #000;
+}
+.a1 {
+  padding: 10px;
+  padding: 15px 30px;
+  background-color: rgb(21, 129, 93);
+  color: white;
+}
+.other-items {
+  overflow: hidden;
+  text-wrap: wrap;
+  padding: 20px 2px;
+  width: auto;
+  line-height: 20px;
+  flex-wrap: wrap;
+  background-color: chocolate;
+  margin-top: 0;color: white;
+}
+.three {
+  margin-top: 0;
+  color: black;
+}
+.exciting-offer{
+    width: 455px;
+    height: 90px;
+    background-color: rgb(0, 74, 117);
+    color: white;
+    align-items: center;
+    display: flex;
+    border: 9px solid #000;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-0%);
+}
+.rows{
+    padding-right: 20px;
+    color: aqua;
+}
+.icons{
+  display: flex;
+  object-fit: contain;
+  background-color: rgb(243, 255, 186);
+  align-items: center;
+  /* place-content: center; */
+  padding-left: 10px;
+  border-radius: 0 50px 50px 0;
+  width: 190px;
+  overflow: hidden;
+  position: sticky;
+  top: 00px;
+  /* float: right; */
+  z-index: 6;
+  animation: wid 30s linear 2 ;
+}
+@keyframes wid {
+  0%{
+    top: 00px;
+  }
+  50%{
+    top: 735px;
+  }
+}
+.imgs{
+  width: 40px;
+  height: 40px;
+
+}
+.tisra{
+  width: 31px;
+  height: 31px;
+  margin-left: 5px;
+}
+.chotha{
+  width: 50px;
+  height: 50px;
+}
+@media (width >200px) and (width<700px) {
+  .my-store {
+    display: grid;
+    background-color: rgb(43, 107, 0);
+    justify-content: space-between;
+  }
+  .middle-body {
+    display: grid;
+    height: 1350px;
+    padding-bottom: 30px;
+    justify-content: center;
+  }
+  .not {
+    margin-top: 360px;
+  }
+  .header {
+  width: auto;
+}
+.exciting-offer{
+    display: grid;
+    width: 60%;
+    height: 150px;
+}
+.rows{
+    padding-right: 20px;
+    color: aqua;
+}
+}
